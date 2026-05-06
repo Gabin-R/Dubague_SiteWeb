@@ -1,0 +1,399 @@
+/*Base*/
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 50%);
+    padding: 10px;
+    background-color: white;
+}
+
+a
+{
+    user-select: none;
+}
+
+main
+{
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h1,h2,h3
+{
+    font-family: "Italiana";
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 25px;
+}
+
+p,h4,a
+{
+    font-size: small;
+    font-family: "Inter";
+    color: black;
+}
+
+h4
+{
+    font-weight: 600;
+}
+
+form
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+hr
+{
+    margin: 50px 150px 50px 150px;
+    border-top: 1px solid black;
+}
+
+footer
+{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    box-shadow: 0px -3px 7px rgba(0, 0, 0, 50%);
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    margin: -8px;
+}
+
+footer p
+{
+    margin-left: -50px;
+}
+
+textarea
+{
+    width: 520px;
+    height: 75px;
+    border: solid 1px black;
+    font-family: "Inter";
+    resize: none;
+}
+
+/*Class*/
+
+.acceuil
+{
+    background-image: url("../img/Dubague-Locaux.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    height: 250px;
+    margin: -30px -8px -8px -8px;
+    position: relative;
+}
+
+.block
+{
+    justify-items: center; 
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 50%),0px 3px 7px rgba(0, 0, 0, 50%);
+    margin: 0px -8px 0px -8px;
+    padding: 10px 250px 40px 250px;
+    background-color: white;
+    text-align: center;
+}
+
+.block form
+{
+    margin-bottom: 20px;
+}
+
+.block p
+{
+    text-align: center;
+}
+
+.block hr
+{
+    width: 1250px;
+    border-top: 1px solid black;
+}
+
+.icon
+{
+    width: 30px;
+    height: 30px;
+}
+
+.img-carte
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.align
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.carte
+{
+    background-color: #E4D8CA;
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin: 30px;
+    align-items: center;
+    transition: transform .2s;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.carte:hover
+{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 7px rgba(235, 184, 102,50%);
+}
+
+.carte p,h3
+{
+    padding-right: 15px;
+    user-select: none;
+}
+
+.carte hr
+{
+    width: 150px;
+    margin: 25px 0px 25px 50px;
+    border-top: 1px solid black;
+}
+
+.logo
+{
+    width: 35px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.page
+{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.rubrique
+{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px 0px 10px;
+    font-weight: 500;
+}
+
+.rubrique:hover
+{
+    color: #EBB866;
+}
+
+.btn
+{
+    background-color: transparent;
+    border: solid 1px black;
+    height: 38px;
+    width: 150px;
+    margin-bottom: 10px;
+    justify-items: center;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    font-size: 17px;
+}
+
+.btn:hover
+{
+    border-color: #EBB866;
+    color: #EBB866;
+}
+
+.top-page
+{
+    background-color: #E4D8CA;
+    text-align: center;
+    width: auto;
+    margin: -30px -8px -8px -8px;
+    padding: 10px 0px 50px 0px;
+}
+
+.top-page .btn
+{
+    margin-top: 50px;
+}
+
+.left
+{
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 12.5px 25px 12.5px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    width: fit-content;
+}
+
+.descript
+{
+    list-style: none; 
+    padding-top: 5px;
+}
+
+.champ
+{
+    border: solid 1px black;
+    height: 38px;
+    width: 250px;
+    margin: 5px;
+    user-select: none;
+}
+
+.listp
+{
+    box-shadow: 5px black ;
+}
+
+.petit
+{
+    width: 50px;
+    text-align: center;
+}
+
+.white
+{
+    background-color: white;
+}
+
+.one_block
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one_block li
+{
+    display: flex;
+    padding: 15px 0px 15px 5px;
+    align-items: center;
+}
+
+.one_block a
+{
+    padding: 0px 15px 0px 15px;
+}
+
+.one_block a:hover
+{
+    color: #EBB866;
+}
+
+.one_block #locaux
+{
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.prix
+{
+    font-size: 15px;
+}
+
+/*ID*/
+
+#corps
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#add
+{
+    border: solid 1px black;
+    padding: 0px 7px 0px 7px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 250;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+#add:hover
+{
+    color: #EBB866;
+    border-color: #EBB866;
+}
+
+#produits
+{
+    display: flex;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 50%), -3px -3px 7px rgba(0, 0, 0, 50%);
+    margin: 0px 20px 20px 20px;
+    align-items : center;
+}
+
+#panier
+{
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 50%), -3px -3px 7px rgba(0, 0, 0, 50%);
+    width: fit-content;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#suppr
+{
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+#reseaux
+{
+    display: flex;
+    justify-content: center;
+}
+
+#reseaux ul
+{
+    list-style: none;
+    width: 100%;
+    align-items: center;
+}
+
+#reseaux li
+{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 15px 0px ;
+}
+
+#reseaux a,p
+{
+    margin-left: 15px;
+}
+
+#reseaux a:hover
+{
+    color: #EBB866;
+}
